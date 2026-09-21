@@ -10,6 +10,11 @@ public class Main {
         firstbook.author = "Frank Herbert";
         firstbook.pageCount = 412;
 
+        // before loan
         firstbook.displayDetails();
+        firstbook.borrowBook();
+        // after loan
+        firstbook.displayDetails();
+
     }
 }
